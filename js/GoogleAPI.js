@@ -48,11 +48,11 @@ function addMarker(map, name, location) {
     });
 
     google.maps.event.addListener(marker, 'click', function () {
-        if (typeof infowindow != 'undefined') infowindow.close();
-        infowindow = new google.maps.InfoWindow({
-            content: name
-        });
-        infowindow.open(map, marker);
+        //if (typeof infowindow != 'undefined') infowindow.close();
+        //infowindow = new google.maps.InfoWindow({
+        //    content: name
 		$("#myModal").modal();
+        //});
+        //infowindow.open(map, marker);
     });
 }
