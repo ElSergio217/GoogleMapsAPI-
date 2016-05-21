@@ -60,7 +60,7 @@ function addMarker(map, name, location) {
         infowindow = new google.maps.InfoWindow({
             content: name
         });
-        infowindow.open(map, marker);
+        //infowindow.open(map, marker);
 		$("#" + name).modal();
     });
 }
