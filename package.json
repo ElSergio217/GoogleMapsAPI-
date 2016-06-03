@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ElSergio217/GoogleMapsAPI-#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "firebase": "^3.0.2"
   }
 }
