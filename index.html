@@ -3,13 +3,28 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>CitySaturdays RoadMap</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/map.css" />
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHis5qEzW7nuscQp7SEW4aYlE1g393ufw&callback=initMap" async defer></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+		<link href="css/mdb.css" rel="stylesheet">
 	</head>
 	
-	<body>
-		<h1><center>City Saturdays Digital RoadMap<center></h1>
+	<body>		
+  
+  <nav class="navbar navbar navbar-fixed-top grey lighten-5">
+            <div class="container-fluid">
+           <h3 class="text-center">City Saturdays Digital RoadMap</h3>
+            </div>
+        </nav>	
+		
+		<nav class="navbar navbar navbar-fixed-bottom grey lighten-5">
+            <div class="container-fluid">
+				<a href="team.html"><h3 class="text-center"><i class="material-icons">supervisor_account</i>Team<h3></a>
+            </div>
+        </nav>	
+
 		<div class="modal left fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
@@ -20,27 +35,16 @@
 					</div>
 					
 					<div class="modal-body">
-						<div id="myCarousel" class="carousel slide" data-ride="carousel">
-						
-							<ol class="carousel-indicators">
-								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-								<li data-target="#myCarousel" data-slide-to="1"></li>
-								<li data-target="#myCarousel" data-slide-to="2"></li>
-								<li data-target="#myCarousel" data-slide-to="3"></li>
-							</ol>
-							
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">							
 							<div class="carousel-inner" role="listbox">
 								<div class="item active">
-									<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" width="460" height="345">
+									<img id="1" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" width="460" height="345">
 								</div>
 								<div class="item">
-									<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" width="460" height="345">
+									<img id="2" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" width="460" height="345">
 								</div>  
 								<div class="item">
-									<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" width="460" height="345">
-								</div>
-								<div class="item">
-									<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" width="460" height="345">
+									<img id="3" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" width="460" height="345">
 								</div>
 							</div>
 							
@@ -63,9 +67,11 @@
 		
 		<div id="map"></div>
 		
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
 		<script src="js/GoogleAPI.js"></script>	
+		<script type="text/javascript" src="js/mdb.js"></script>
 	</body>
 </html>

@@ -11,7 +11,7 @@
 	.modal.right .modal-dialog {
 		position: fixed;
 		margin: auto;
-		width: 420px;
+		width: 75%;
 		height: 100%;
 		-webkit-transform: translate3d(0%, 0, 0);
 		    -ms-transform: translate3d(0%, 0, 0);
