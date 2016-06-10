@@ -60,11 +60,13 @@ function initMap() {
 	map.setMapTypeId('map_style');
 	
 	var Location = [
-			{ 'name': 'BXL', 'lat': 40.816638, 'lng': -73.890643 },
+			{ 'name': 'BXL Incubator', 'lat': 40.816638, 'lng': -73.890643 },
 			{ 'name': 'Scenyc', 'lat': 40.810950, 'lng': -73.929081 },
 			{ 'name': 'Ghetto Film School', 'lat': 40.8063976, 'lng': -73.9281422 },
 			{ 'name': 'American Museum of Natural History', 'lat': 40.7813241, 'lng': -73.9739882 },
-			{ 'name': 'BrainPOP', 'lat': 40.7429639, 'lng': -73.9922767 }
+			{ 'name': 'BrainPOP', 'lat': 40.7429639, 'lng': -73.9922767 },
+			{ 'name': 'NYU Magnet', 'lat': 40.6934656, 'lng': -73.9860776 },
+			{ 'name': 'Microsoft HQ', 'lat': 40.75672, 'lng': -73.9896509 }
 		];
 	
 	for (var x in Location) {
@@ -94,7 +96,7 @@ function addMarker(map, name, location) {
 		document.getElementById("Spotname").innerHTML=name;
 		holder="";
 		for(i = 0; i < arr.length; i++) {
-			if(spot=="BXL"){
+			if(spot=="BXL Incubator"){
 				if(typeof arr[i].BXL!="undefined"){
 					holder +='<h5>"' + arr[i].BXL + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "'>" + arr[i].Name + '</a></h5>'+'<br>';
 					document.getElementById("1").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/15.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
@@ -134,17 +136,17 @@ function addMarker(map, name, location) {
 					document.getElementById("3").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/14.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 				}
 			}
-			if(spot=="NYU"){
-				if(typeof arr[i].NYU!="undefined"){
-					holder += '<h5>"' + arr[i].NYU + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "'>" + arr[i].Name + '</a></h5>'+'<br>';
+			if(spot=="NYU Magnet"){
+				if(typeof arr[i].NYUM!="undefined"){
+					holder += '<h5>"' + arr[i].NYUM + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "'>" + arr[i].Name + '</a></h5>'+'<br>';
 					document.getElementById("1").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/3.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("2").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/11.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("3").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/10.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 				}
 			}
-			if(spot=="MS"){
-				if(typeof arr[i].MS!="undefined"){
-					holder += '<h5>"' + arr[i].MS + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "'>" + arr[i].Name + '</a></h5>'+'<br>';
+			if(spot=="Microsoft HQ"){
+				if(typeof arr[i].Microsoft!="undefined"){
+					holder += '<h5>"' + arr[i].Microsoft + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "'>" + arr[i].Name + '</a></h5>'+'<br>';
 					document.getElementById("1").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/1.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("2").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/2.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("3").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/21.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
