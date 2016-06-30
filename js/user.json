@@ -1,99 +1,93 @@
 {
-	"data":[
-  {
-    "Name": "Frankie",
-    "Wordpress": "citysaturdayfrankiew.wordpress.com",
-    "Scenyc": "Was a fun icebreaker and we played an interesting competitive game when I got there",
-    "BXL": "TKH was fun because we debated and had fun, I learned coding",
-    "BP": "This was very fun because I made my own beat learning how to code beats"
-
-  },
-  {
-    "Name": "Ronaldo",
-    "Wordpress": "citysaturdayronaldod.wordpress.com",
-    "General": "It was a fun experience to learn coding and going around places."
-  },
-  {
-    "Name": "Yokaris",
-    "Wordpress": "citysaturdayyokarisa.wordpress.com",
-    "AMNH": "We went around the museum to play a game and we saw a lot of interesting things about sea animals"
-  },
-  {
-    "Name": "Thiany",
-    "Wordpress": "citysaturdaythianyp.wordpress.com",
-    "AMNH": "At the AMNH I played a game where we scanned a little coin and we had fun."
-  },
-  {
-    "Name": "Issac",
-    "Wordpress": "citysaturdayissacd.wordpress.com",
-    "General": "CitySaturday's is fun because we visited diferent places"
-  },
-  {
-    "Name": "Tyree",
-    "Wordpress": "citysaturdaytyree.wordpress.com",
-    "Scenyc": "The first Saturday was not so fun and it was making me tired",
-    "BP": "BrainPop was very fun and then we got to make music and our very own game.",
-    "GFS": "GFS was a very fun place to visit and I would love to go there again.",
-    "General": "This trip was very fun and we took a lot of pictures"
-  },
-  {
-    "Name": "Zion",
-    "Wordpress": "citysaturdayzionb.wordpress.com",
-    "General": "I think that city saturdays is a beneficial program for students that like programming"
-  },
-  {
-    "Name": "Justin",
-    "Wordpress": "citysaturdayjustinr.wordpress.com",
-    "Scenyc": "Scenyc is a company that holds different tech companies",
-    "BXL": "We did dash. Dash is a coding website where we do coding.",
-    "BP": "Next we went to Brainpop. In BrainPop we made games and websites.",
-    "GFS": "Next we went to Ghetto Film School to talk about filming."
-  },
-  {
-    "Name": "mario",
-    "Wordpress": "citysaturdaymr.wordpress.com",
-    "Scenyc": "It was okay but it got a little boring just waiting there",
-    "BXL": "It was really cool but it would've been better if we used advanced music tech.",
-    "BP": "It was awesome.",
-    "GFS": "Nothing to say (it was awesome!)"
-  },
-  {
-    "Name": "Nicholas",
-    "Wordpress": "citysaturdaynicholasg.wordpress.com",
-    "Scenyc": "I came late so I didn't understand what was going on at first, but it was cool",
-    "BP": "I liked the activities they had at BrainPop"
-  },
-  {
-    "Name": "carilee",
-    "Wordpress": "citysaturdayscarileet.wordpress.com",
-    "AMNH": "At AMNH it was okay. What we did was a scavenger hunt. We went looking for different stuff. My experience today was ehh, I think we should of done something more fun."
-  },
-  {
-    "Name": "Amarilis",
-    "Wordpress": "citysaturdayamarilisv.wordpress.com",
-    "AMNH": "One think I like is the little microrangers game we played with the coins."
-  },
-  {
-    "Name": "Jennyffer",
-    "Wordpress": "citysaturdayjennyffers.wordpress.com",
-    "AMNH": "I had fun after looking through the app game. We went to explore with our mentor."
-  },
-  {
-    "Name": "nydaysha",
-    "Wordpress": "citysaturdaynydayshap.wordpress.com",
-    "Scenyc": "Scenyc was unique and had an interesting vibe.",
-    "BXL": "BXL Incubator was the first time I actually code when in the program and I really liked it.",
-    "BP": "BrainPop was one of my favorite places to visit because it was fun and chill.",
-    "GFS": "The Ghetto Film School was great because they brought up things that I knew about like Netflix.",
-    "AMNH": "At the AMNH, I really enjoyed it because I got to visit my favorite exhibit which is the Hall of Ocean Life.",
-    "General": "An individual bio should be added to the map."
-  },
-  {
-    "Name": "Jonah",
-    "Wordpress": "citysaturdayjonahm.citysaturday.com",
-    "Scenyc": "I like BrainPop a lot because I've been watching it since 3rd grade. It's also interesting because it's funny and it's teaching you something.",
-    "GFS": "I liked the lesson that was taught about Ghetto Film School. The name got me a little confused because when I first heard that name I thought that people was getting recorded being ghetto in school.",
-    "AMNH": "Today was the best Saturday because we got to move around more not just sitting in the same place for hours, and me and my friends got ot take a lot of pictures."
-  }
-]
+  "data" : [ {
+    "BP" : "This was very fun because I made my own beat learning how to code beats",
+    "BXL" : "TKH was fun because we debated and had fun, I learned coding",
+    "Name" : "Frankie",
+    "Scenyc" : "Was a fun icebreaker and we played an interesting competitive game when I got there",
+    "Wordpress" : "citysaturdayfrankiew.wordpress.com",
+    "img" : "https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/User%2F11.png?alt=media&token=17e76ee0-a704-46ce-93c9-1e2f7b4e41f1"
+  }, {
+    "BP" : "When I first saw the beats being done through coding I was confused a little because I thought beats were made in the studio and on the laptop but I didn’t know it was made through coding.",
+    "General" : "It was a fun experience to learn coding and going around places.",
+    "Microsoft" : "I saw a 3D printer and some of Microsoft's technology.",
+    "Name" : "Ronaldo",
+    "Wordpress" : "citysaturdayronaldod.wordpress.com",
+    "img" : "https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/User%2F1.png?alt=media&token=134383b5-0322-4574-9356-c7bd9c2992eb"
+  }, {
+    "AMNH" : "At the AMNH I played a game where we scanned a little coin and we had fun.",
+    "Name" : "Thiany",
+    "Wordpress" : "citysaturdaythianyp.wordpress.com"
+  }, {
+    "BP" : "[D]uring the third week of City Saturdays we went to the studio where they make brain pop videos and we learned how to make beats",
+    "General" : "CitySaturday's is fun because we visited diferent places",
+    "Name" : "Issac",
+    "Wordpress" : "citysaturdayissacd.wordpress.com"
+  }, {
+    "BP" : "BrainPop was very fun and then we got to make music and our very own game.",
+    "GFS" : "GFS was a very fun place to visit and I would love to go there again.",
+    "General" : "This trip was very fun and we took a lot of pictures",
+    "Microsoft" : "[W]e visited Microsoft and we took a tour of the place . . . we also got a chance to prep for emoticon. . . we had to present our pitches.",
+    "Name" : "Tyree",
+    "Wordpress" : "citysaturdaytyree.wordpress.com"
+  }, {
+    "BP" : "Today had thrilled me because we were able to create our own music. It was fun and a great learning experience. We made the music on a site called Earsketch.",
+    "General" : "I think that city saturdays is a beneficial program for students that like programming",
+    "Microsoft" : "We learned about how we should present to judges that come to us. They showed all of the software products that they had to create different games.",
+    "Name" : "Zion",
+    "Wordpress" : "citysaturdayzionb.wordpress.com"
+  }, {
+    "BP" : "Next we went to Brainpop. In BrainPop we made games and websites.",
+    "BXL" : "We did dash. Dash is a coding website where we do coding.",
+    "GFS" : "Next we went to Ghetto Film School to talk about filming.",
+    "Name" : "Justin",
+    "Scenyc" : "Scenyc is a company that holds different tech companies",
+    "Wordpress" : "citysaturdayjustinr.wordpress.com"
+  }, {
+    "BP" : "It was awesome.",
+    "BXL" : "It was really cool but it would've been better if we used advanced music tech.",
+    "GFS" : "Nothing to say (it was awesome!)",
+    "NYUM" : "Today Nicholas and I learned that we could present our idea to people at emoticon and then I had this idea that we could get supported by other companies if we do this.",
+    "Name" : "Mario",
+    "Wordpress" : "citysaturdaymr.wordpress.com"
+  }, {
+    "BP" : "I liked the activities they had at BrainPop",
+    "Microsoft" : "Today we visited Microsoft where we met a guy who talked about what Microsoft is about and all the technology they have been making.  He was a tech evangelist and he talked about the benefits of Microsoft.",
+    "NYUM" : "[T]oday was fun, we learned about the opportunities they had about game designing. Now I know about good programs that I can apply to that have to do with game designing.",
+    "Name" : "Nicholas",
+    "Scenyc" : "I came late so I didn't understand what was going on at first, but it was cool",
+    "Wordpress" : "citysaturdaynicholasg.wordpress.com"
+  }, {
+    "AMNH" : "At AMNH it was okay. What we did was a scavenger hunt. We went looking for different stuff. My experience today was ehh, I think we should of done something more fun.",
+    "GFS" : "When I saw some of there stuff I was really interested in them because you could tell what they do is fun and me I am the type of person if it is not fun at least a little I might not want to do it . . .",
+    "Microsoft" : "Then as we are walking we see this big server that helps to run everything on the floor we were on, nothing really big but as we go they start to take us onto the patio where there is this great view of everything mind you Microsoft is around times square so you know the view is amazing.",
+    "Name" : "Carilee",
+    "Wordpress" : "citysaturdayscarileet.wordpress.com"
+  }, {
+    "AMNH" : "One think I like is the little microrangers game we played with the coins.",
+    "NYUM" : "City Saturdays and I went to Brooklyn to the building of NYU Magnet. It was a cool experience because I got support from people to do what I want to do.",
+    "Name" : "Amarilis",
+    "Wordpress" : "citysaturdayamarilisv.wordpress.com"
+  }, {
+    "AMNH" : "I had fun after looking through the app game. We went to explore with our mentor.",
+    "BP" : ". . . We went to Brain Pop and made some games about climate change as well as some music remixes which was really fun.",
+    "GFS" : "[T]oday we met a company called Ghetto Film School  and they told us about all the stuff they do and people they work with.",
+    "Microsoft" : "So basically I talked with my mentor on what I was going to be saying to the people who come up to me and asked me what Im involved in. Then we went to see a career fair about tech, I went with my friends and we got a lot of business cards a mug and gave our contact info. . .",
+    "Name" : "Jennyffer",
+    "Wordpress" : "citysaturdayjennyffers.wordpress.com"
+  }, {
+    "AMNH" : "At the AMNH, I really enjoyed it because I got to visit my favorite exhibit which is the Hall of Ocean Life.",
+    "BP" : "BrainPop was one of my favorite places to visit because it was fun and chill.",
+    "BXL" : "BXL Incubator was the first time I actually code when in the program and I really liked it.",
+    "GFS" : "The Ghetto Film School was great because they brought up things that I knew about like Netflix.",
+    "General" : "An individual bio should be added to the map.",
+    "Name" : "Nydaysha",
+    "Scenyc" : "Scenyc was unique and had an interesting vibe.",
+    "Wordpress" : "citysaturdaynydayshap.wordpress.com"
+  }, {
+    "AMNH" : "Today was the best Saturday because we got to move around more not just sitting in the same place for hours, and me and my friends got ot take a lot of pictures.",
+    "GFS" : "I liked the lesson that was taught about Ghetto Film School. The name got me a little confused because when I first heard that name I thought that people was getting recorded being ghetto in school.",
+    "Name" : "Jonah",
+    "Scenyc" : "I like BrainPop a lot because I've been watching it since 3rd grade. It's also interesting because it's funny and it's teaching you something.",
+    "Wordpress" : "citysaturdayjonahm.citysaturday.com"
+  } ]
 }
