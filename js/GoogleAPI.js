@@ -319,7 +319,7 @@ function addMarker(map, name, location) {
 		for(i = 0; i < arr.length; i++) {
 			if(spot=="BXL Incubator"){
 				if(typeof arr[i].BXL!="undefined"){
-					holder +='<h5>"' + arr[i].BXL + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "'>" +"<img src='"+arr[i].img +"' style='width:10%' class='img-circle'>"+ arr[i].Name + '</a></h5>'+'<hr>';
+					holder +='<h5>"' + arr[i].BXL + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "' target='_blank'>" +"<img src='"+arr[i].img +"' style='width:10%' class='img-circle'>"+ arr[i].Name + '</a></h5>'+'<hr>';
 					document.getElementById("1").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/15.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("2").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/16.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("3").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/17.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
@@ -327,7 +327,7 @@ function addMarker(map, name, location) {
 			}
 			if(spot=="Scenyc"){
 				if(typeof arr[i].Scenyc!="undefined"){
-					holder += '<h5>"'+ arr[i].Scenyc + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "'>" +"<img src='"+arr[i].img +"' style='width:10%' class='img-circle'>"+arr[i].Name + '</a></h5>'+'<hr>';
+					holder += '<h5>"'+ arr[i].Scenyc + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "' target='_blank'>" +"<img src='"+arr[i].img +"' style='width:10%' class='img-circle'>"+arr[i].Name + '</a></h5>'+'<hr>';
 					document.getElementById("1").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/18.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("2").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/19.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("3").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/20.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
@@ -335,7 +335,7 @@ function addMarker(map, name, location) {
 			}
 			if(spot=="Ghetto Film School"){
 				if(typeof arr[i].GFS!="undefined"){
-					holder += '<h5>"' + arr[i].GFS + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "'>" +"<img src='"+arr[i].img +"' style='width:10%' class='img-circle'>"+ arr[i].Name + '</a></h5>'+'<hr>';
+					holder += '<h5>"' + arr[i].GFS + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "' target='_blank'>" +"<img src='"+arr[i].img +"' style='width:10%' class='img-circle'>"+ arr[i].Name + '</a></h5>'+'<hr>';
 					document.getElementById("1").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/7.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("2").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/8.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("3").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/9.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
@@ -343,7 +343,7 @@ function addMarker(map, name, location) {
 			}
 			if(spot=="American Museum of Natural History"){
 				if(typeof arr[i].AMNH!="undefined"){
-					holder += '<h5>"' + arr[i].AMNH + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "'>" +"<img src='"+arr[i].img +"' style='width:10%' class='img-circle'>"+ arr[i].Name + '</a></h5>'+'<hr>';
+					holder += '<h5>"' + arr[i].AMNH + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "' target='_blank'>" +"<img src='"+arr[i].img +"' style='width:10%' class='img-circle'>"+ arr[i].Name + '</a></h5>'+'<hr>';
 					document.getElementById("1").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/4.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("2").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/5.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("3").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/6.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
@@ -351,7 +351,7 @@ function addMarker(map, name, location) {
 			}
 			if(spot=="BrainPOP"){
 				if(typeof arr[i].BP!="undefined"){
-					holder += '<h5>"' + arr[i].BP + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "'>" +"<img src='"+arr[i].img +"' style='width:10%' class='img-circle'>"+ arr[i].Name + '</a></h5>'+'<hr>';
+					holder += '<h5>"' + arr[i].BP + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "' target='_blank'>" +"<img src='"+arr[i].img +"' style='width:10%' class='img-circle'>"+ arr[i].Name + '</a></h5>'+'<hr>';
 					document.getElementById("1").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/12.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("2").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/13.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("3").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/14.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
@@ -359,7 +359,7 @@ function addMarker(map, name, location) {
 			}
 			if(spot=="NYU Magnet"){
 				if(typeof arr[i].NYUM!="undefined"){
-					holder += '<h5>"' + arr[i].NYUM + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "'>" +"<img src='"+arr[i].img +"' style='width:10%' class='img-circle'>"+ arr[i].Name + '</a></h5>'+'<hr>';
+					holder += '<h5>"' + arr[i].NYUM + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "' target='_blank'>" +"<img src='"+arr[i].img +"' style='width:10%' class='img-circle'>"+ arr[i].Name + '</a></h5>'+'<hr>';
 					document.getElementById("1").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/3.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("2").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/11.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("3").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/10.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
@@ -367,7 +367,7 @@ function addMarker(map, name, location) {
 			}
 			if(spot=="Microsoft HQ"){
 				if(typeof arr[i].Microsoft!="undefined"){
-					holder += '<h5>"' + arr[i].Microsoft + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "'>" +"<img src='"+arr[i].img +"' style='width:10%' class='img-circle'>"+ arr[i].Name + '</a></h5>'+'<hr>';
+					holder += '<h5>"' + arr[i].Microsoft + '"</h5>' + "<h5><a href='http://" + arr[i].Wordpress + "' target='_blank'>" +"<img src='"+arr[i].img +"' style='width:10%' class='img-circle'>"+ arr[i].Name + '</a></h5>'+'<hr>';
 					document.getElementById("1").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/1.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("2").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/2.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
 					document.getElementById("3").src = 'https://firebasestorage.googleapis.com/v0/b/concrete-sol-113722.appspot.com/o/21.png?alt=media&token=a36e2f73-d12e-41d4-8fda-6020871fae1b';
